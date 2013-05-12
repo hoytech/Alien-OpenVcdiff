@@ -1,0 +1,11 @@
+Makefile
+Makefile.old
+MYMETA.*
+blib/
+pm_to_blib
+MANIFEST.bak
+Alien-OpenVcdiff-*.tar.gz
+Build
+_build/
+_share/
+_alien/

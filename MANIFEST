@@ -1,0 +1,8 @@
+Build.PL
+Changes
+inc/open-vcdiff-0.8.3.tar.gz
+lib/Alien/OpenVcdiff.pm
+MANIFEST
+MANIFEST.SKIP
+README
+t/installed.t
