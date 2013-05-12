@@ -1,6 +1,6 @@
 =head1 NAME
 
-Alien::OpenVcdiff - build and install google open-vcdiff delta encoding library
+Alien::OpenVcdiff - Build and install Google's open-vcdiff delta encoding library
 
 =head1 SYNOPSIS
 
@@ -10,15 +10,15 @@ Alien::OpenVcdiff - build and install google open-vcdiff delta encoding library
 
 =head1 DESCRIPTION
 
-This package configures, builds, and installs Google's L<open-vcdiff|http://code.google.com/p/open-vcdiff/>. This library and command-line utility implements L<RFC 3284|http://www.faqs.org/rfcs/rfc3284.html>, "The VCDIFF Generic Differencing and Compression Data". This RFC specifies a file format for delta encoding and can be thought of as a diff/patch equivalent for binary data.
+This package configures, builds, and installs Google's L<open-vcdiff|http://code.google.com/p/open-vcdiff/>. This library and its associated command-line utility C<vcdiff> implement L<RFC 3284|http://www.faqs.org/rfcs/rfc3284.html>, "The VCDIFF Generic Differencing and Compression Data". This RFC specifies a file format for delta encoding and can be thought of as a diff/patch equivalent for binary data (or any kind of data really).
 
 The C<vcdiff> command-line utility binary's location can be found by calling C<Alien::OpenVcdiff::vcdiff_binary()> after the package has been loaded.
 
-Although the binary might come in handy sometimes, the primary purpose of this module is to install the C<libvcdenc.so> and C<libvcddec.so> shared libraries so that they can be used by L<Vcdiff>.
+Although the binary might come in handy sometimes, the primary purpose of this module is to install the C<libvcdenc.so> and C<libvcddec.so> shared libraries so that they can be used by the L<Vcdiff> module.
 
 =head1 SEE ALSO
 
-L<Alien::OpenVcdiff github repo|https://github.com/hoytech/Alient-OpenVcdiff>
+L<Alien-OpenVcdiff github repo|https://github.com/hoytech/Alient-OpenVcdiff>
 
 L<Vcdiff>
 
@@ -32,6 +32,6 @@ Doug Hoyte, C<< <doug@hcsw.org> >>
 
 Copyright 2013 Doug Hoyte.
 
-This module includes open-vcdiff which is (C) Google Inc and Lincoln Smith. open-vcdiff is licensed under the Apache 2.0 license which can be found in the included open-vcdiff distribution.
+This module includes open-vcdiff which is copyright Google Inc and Lincoln Smith. open-vcdiff is licensed under the Apache 2.0 license which can be found in the included open-vcdiff distribution.
 
 This module is licensed under the same terms as perl itself or under the Apache 2.0 license, whichever you prefer.
