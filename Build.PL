@@ -4,12 +4,13 @@ use warnings;
 use Alien::Base::ModuleBuild;
 
 
-## Run this when you change docs: perldoc -uT lib/Alien/OpenVcdiff.pm > README.pod
+## Run this when you change docs so the github README.pod is updated. I'm sure there is a better way with Module::Build ...
+## perldoc -uT lib/Alien/OpenVcdiff.pm > README.pod
 
 
 my $builder = Alien::Base::ModuleBuild->new(
   module_name => 'Alien::OpenVcdiff',
-  dist_abstract => 'Build and install open-vcdiff',
+  dist_abstract => 'Build and install open-vcdiff, a binary diff/patch library',
   license => 'apache',
   configure_requires => {
     'Alien::Base' => '0.003',
