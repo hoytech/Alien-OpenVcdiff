@@ -60,11 +60,13 @@ This package configures, builds, and installs Google's L<open-vcdiff|http://code
 
 The C<vcdiff> command-line utility binary's location can be found by calling C<Alien::OpenVcdiff::vcdiff_binary()> after the package has been loaded.
 
-Although the binary might come in handy sometimes, the primary purpose of this module is to install the C<libvcdenc.so> and C<libvcddec.so> shared libraries so that they can be used by the L<Vcdiff> module. Nothing from C<open-vcdiff> is installed globally -- it's all contained in the perl auto directory.
+Although the binary might come in handy sometimes, the primary purpose of this module is to install the C<libvcdenc.so> and C<libvcddec.so> shared libraries so that they can be used by the L<Vcdiff::OpenVcdiff> module. Nothing from C<open-vcdiff> is installed globally -- it's all contained in the perl auto directory.
 
 =head1 SEE ALSO
 
 L<Alien-OpenVcdiff github repo|https://github.com/hoytech/Alient-OpenVcdiff>
+
+L<Vcdiff::OpenVcdiff>
 
 L<Vcdiff>
 
