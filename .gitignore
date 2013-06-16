@@ -1,6 +1,7 @@
 Makefile
 Makefile.old
 MYMETA.*
+META.*
 blib/
 pm_to_blib
 MANIFEST.bak
