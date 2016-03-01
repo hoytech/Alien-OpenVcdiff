@@ -1,6 +1,6 @@
 package Alien::OpenVcdiff;
 
-our $VERSION = '0.100';
+our $VERSION = '0.101';
 
 use parent 'Alien::Base';
 
