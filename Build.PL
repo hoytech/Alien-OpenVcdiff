@@ -13,7 +13,7 @@ my $builder = Alien::Base::ModuleBuild->new(
   dist_abstract => 'Build and install open-vcdiff, a binary diff/patch library',
   license => 'apache',
   configure_requires => {
-    'Alien::Base' => '0.003',
+    'Alien::Base::ModuleBuild' => '0.003',
     'Module::Build' => '0.38',
   },
   requires => {
